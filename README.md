@@ -4,6 +4,11 @@
 
 * Figma
 * Images
+* Git
+* JAVA Script
+
+This is a project that showcases the places that a person covered around the U.S. It's created using HTML5, CSS, Java Script and flat BEM.
+
 
 **Figma**
 
@@ -13,4 +18,4 @@
 
 The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
 
-Have fun with JavaScript!
+
