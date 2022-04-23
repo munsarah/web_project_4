@@ -1,0 +1,60 @@
+.elements {
+  max-width: 1184px;
+  height: 100%;
+  margin-top: 50px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
+  gap: 17px;
+}
+
+.element {
+  border-radius: 10px;
+  background: #ffffff;
+}
+.element__group {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.element__image {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.element__title {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.element__like {
+  width: 21px;
+  height: 19px;
+  background-image: url("../images/heart.jpg");
+  align-self: center;
+  cursor: pointer;
+  border: none;
+}
+.element__like:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 1000px) {
+  .elements {
+    margin: 50px 24px 88px 24px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .elements {
+    margin-top: 36px;
+    margin-bottom: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
+    gap: 20px;
+  }
+}

@@ -1,0 +1,30 @@
+.page {
+  background: #2a2c2f;
+  min-width: 320px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.page__content {
+  font-family: "Inter", "Times New Roman", serif;
+  font-style: normal;
+  color: #fff;
+  margin: 45px 200px 0px;
+  max-width: 880px;
+}
+
+@media screen and (max-width: 920px) {
+  .page {
+    max-width: 100vw;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .page {
+    margin: 0px;
+  }
+
+  .page__content {
+    margin: 28px auto 36px;
+  }
+}

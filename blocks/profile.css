@@ -1,0 +1,129 @@
+.profile {
+  display: flex;
+  margin-top: 40px;
+  max-width: 880px;
+  width: 100%;
+}
+
+.profile__avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 200px;
+}
+
+.profile__info {
+  display: grid;
+  grid-template-areas:
+    "name button"
+    "title title";
+  grid-template-columns: minmax(auto, 373px) auto;
+  gap: 9px 17px;
+  margin: 22px 165px 21px 30px;
+}
+
+.profile__name {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 48px;
+  color: #ffffff;
+  margin: 0px;
+  max-width: 500px;
+  grid-area: name;
+}
+
+.profile__title {
+  margin: 0px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  max-width: 460px;
+  grid-area: title;
+}
+
+.profile__add-button {
+  width: 150px;
+  height: 50px;
+  background: transparent;
+  background-image: url("../images/Add.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 2px;
+  align-self: center;
+}
+
+.profile__add-button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.profile__edit-button {
+  height: 24px;
+  width: 24px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  background: transparent;
+  background-image: url("../images/edit.svg");
+  background-size: cover;
+  align-self: center;
+  grid-area: button;
+}
+
+.profile__edit-button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 1280px) and (min-width: 768px) {
+  .profile {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .profile__info {
+    text-align: center;
+    margin: 30px auto;
+  }
+
+  .profile__add-button {
+    width: 90%;
+    margin: auto 19px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 282px;
+    max-width: 90vw;
+    margin: 42px auto 36px;
+  }
+
+  .profile__info {
+    text-align: center;
+    margin: 26.25px auto;
+    grid-template-columns: minmax(auto, 200px) auto;
+  }
+
+  .profile__avatar {
+    border-radius: 120px;
+  }
+  .profile__name {
+    font-size: 22px;
+    line-height: 27px;
+  }
+
+  .profile__avatar {
+    border-radius: 120px;
+  }
+
+  .profile__add-button {
+    width: 99%;
+    padding: 0px;
+    margin: auto 19px;
+  }
+}
