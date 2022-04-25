@@ -77,6 +77,10 @@
   top: -45px;
   right: -45px;
   cursor: pointer;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
 }
 
 .popup__close-icon:hover {
@@ -85,7 +89,14 @@
 
 @media screen and (max-width: 768px) and (min-width: 320px) {
   .popup__content {
-    max-width: 282px;
+    width: 282px;
+  }
+
+  .popup__close-icon {
+    width: 26px;
+    height: 26px;
+    top: -38.62px;
+    right: 0;
   }
 
   .popup__input {
@@ -99,6 +110,6 @@
 
   .popup__submit-button {
     margin: 18px auto 22px 22px;
-    width: 238px;
+    max-width: 238px;
   }
 }

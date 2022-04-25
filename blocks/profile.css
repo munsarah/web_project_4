@@ -44,10 +44,10 @@
 .profile__add-button {
   width: 150px;
   height: 50px;
-  background: transparent;
   background-image: url("../images/Add.svg");
-  background-size: contain;
+  background-color: transparent;
   background-repeat: no-repeat;
+  background-position: center;
   border: 2px solid #ffffff;
   box-sizing: border-box;
   border-radius: 2px;
@@ -64,9 +64,10 @@
   width: 24px;
   border: 1px solid #ffffff;
   box-sizing: border-box;
-  background: transparent;
   background-image: url("../images/edit.svg");
-  background-size: cover;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
   align-self: center;
   grid-area: button;
 }
@@ -80,26 +81,29 @@
   .profile {
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    width: 100%;
   }
   .profile__info {
     text-align: center;
     margin: 30px auto;
   }
 
+  .profile__name {
+    font-size: 22px;
+    line-height: 27px;
+  }
   .profile__add-button {
-    width: 90%;
+    width: 100%;
     margin: auto 19px;
   }
 }
 
 @media screen and (max-width: 768px) and (min-width: 320px) {
   .profile {
-    display: flex;
     flex-direction: column;
     align-items: center;
     min-width: 282px;
-    max-width: 90vw;
+    max-width: 92vw;
     margin: 42px auto 36px;
   }
 
@@ -122,7 +126,7 @@
   }
 
   .profile__add-button {
-    width: 99%;
+    width: 100%;
     padding: 0px;
     margin: auto 19px;
   }
