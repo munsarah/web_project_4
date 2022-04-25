@@ -11,6 +11,16 @@
 
 **Images**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
+This is a project that showcases the places a person has visited around the U.S and a little about himself. It's created using flexbox, grid, oerlays, responsive designing, flat BEM, Java script and Figma.
 
-Have fun with JavaScript!
+**Technologies used:**
+
+* HTML5
+* CSS
+* Git
+* Figma
+* Java Script
+
+**Link to website**
+
+https://munsarah.github.io/web_project_4/
