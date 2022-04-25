@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Around The U.S.</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <body class="page">
+    <div class="page__content">
+      <header class="header">
+        <img class="header__image" src="./images/header.svg" />
+      </header>
+
+      <main class="content">
+        <section class="profile">
+          <img class="profile__avatar" src="./images/image.jpg" alt="Avatar" />
+          <div class="profile__info">
+            <h1 class="profile__name">Jacques Cousteau</h1>
+            <button class="profile__edit-button" type="button"></button>
+            <h2 class="profile__title">Explorer</h2>
+          </div>
+          <button class="profile__add-button" type="button"></button>
+        </section>
+
+        <section class="elements">
+          <article class="element">
+            <img class="element__image" src="./images/image1.jpg" alt="City" />
+            <div class="element__group">
+              <p class="element__title">Yosemite Valley</p>
+              <button class="element__like" type="button"></button>
+            </div>
+          </article>
+          <article class="element">
+            <img class="element__image" src="./images/image2.jpg" alt="City" />
+            <div class="element__group">
+              <p class="element__title">Lake Louise</p>
+              <button class="element__like" type="button"></button>
+            </div>
+          </article>
+          <article class="element">
+            <img class="element__image" src="./images/image3.jpg" alt="City" />
+            <div class="element__group">
+              <p class="element__title">Bald Mountains</p>
+              <button class="element__like" type="button"></button>
+            </div>
+          </article>
+          <article class="element">
+            <img class="element__image" src="./images/image4.jpg" alt="City" />
+            <div class="element__group">
+              <p class="element__title">Latemar</p>
+              <button class="element__like" type="button"></button>
+            </div>
+          </article>
+          <article class="element">
+            <img class="element__image" src="./images/image5.jpg" alt="City" />
+            <div class="element__group">
+              <p class="element__title">Vanoise Nationa...</p>
+              <button class="element__like" type="button"></button>
+            </div>
+          </article>
+          <article class="element">
+            <img class="element__image" src="./images/image6.jpg" alt="City" />
+            <div class="element__group">
+              <p class="element__title">Lago di Braies</p>
+              <button class="element__like" type="button"></button>
+            </div>
+          </article>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="description">© 2022 Around The U.S.</p>
+      </footer>
+
+      <div class="popup">
+        <div class="popup__content">
+          <button class="popup__close-icon" type="button"></button>
+          <h2 class="popup__title">Edit Profile</h2>
+          <form class="popup__form">
+            <input
+              class="popup__input"
+              type="text"
+              name="name"
+              value="Jacques Cousteau"
+              placeholder="Name"
+            />
+
+            <input
+              class="popup__input"
+              type="text"
+              name="title"
+              value="Explorer"
+              placeholder="About Me"
+            />
+            <button class="popup__submit-button" type="submit">Save</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
