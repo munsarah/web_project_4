@@ -115,8 +115,9 @@
     border-radius: 120px;
   }
 
-  .profile__avatar {
-    border-radius: 120px;
+  .profile__title {
+    font-size: 14px;
+    line-height: 17px;
   }
 
   .profile__add-button {

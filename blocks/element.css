@@ -25,6 +25,7 @@
   overflow: hidden;
   padding: 0px;
   margin: 0px;
+  max-width: 80vw;
 }
 
 .element__like {

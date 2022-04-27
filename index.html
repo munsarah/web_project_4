@@ -18,10 +18,18 @@
           <img class="profile__avatar" src="./images/image.jpg" alt="Avatar" />
           <div class="profile__info">
             <h1 class="profile__name">Jacques Cousteau</h1>
-            <button class="profile__edit-button" type="button"></button>
+            <button
+              class="profile__edit-button"
+              type="button"
+              aria-label="Edit button"
+            ></button>
             <p class="profile__title">Explorer</p>
           </div>
-          <button class="profile__add-button" type="button"></button>
+          <button
+            class="profile__add-button"
+            type="button"
+            aria-label="Add button"
+          ></button>
         </section>
 
         <section class="elements">
@@ -29,42 +37,66 @@
             <img class="element__image" src="./images/image1.jpg" alt="City" />
             <div class="element__group">
               <h2 class="element__title">Yosemite Valley</h2>
-              <button class="element__like" type="button"></button>
+              <button
+                class="element__like"
+                type="button"
+                aria-label="Like button"
+              ></button>
             </div>
           </article>
           <article class="element">
             <img class="element__image" src="./images/image2.jpg" alt="City" />
             <div class="element__group">
               <h2 class="element__title">Lake Louise</h2>
-              <button class="element__like" type="button"></button>
+              <button
+                class="element__like"
+                type="button"
+                aria-label="Like button"
+              ></button>
             </div>
           </article>
           <article class="element">
             <img class="element__image" src="./images/image3.jpg" alt="City" />
             <div class="element__group">
               <h2 class="element__title">Bald Mountains</h2>
-              <button class="element__like" type="button"></button>
+              <button
+                class="element__like"
+                type="button"
+                aria-label="Like button"
+              ></button>
             </div>
           </article>
           <article class="element">
             <img class="element__image" src="./images/image4.jpg" alt="City" />
             <div class="element__group">
               <h2 class="element__title">Latemar</h2>
-              <button class="element__like" type="button"></button>
+              <button
+                class="element__like"
+                type="button"
+                aria-label="Like button"
+              ></button>
             </div>
           </article>
           <article class="element">
             <img class="element__image" src="./images/image5.jpg" alt="City" />
             <div class="element__group">
               <h2 class="element__title">Vanoise National Park</h2>
-              <button class="element__like" type="button"></button>
+              <button
+                class="element__like"
+                type="button"
+                aria-label="Like button"
+              ></button>
             </div>
           </article>
           <article class="element">
             <img class="element__image" src="./images/image6.jpg" alt="City" />
             <div class="element__group">
               <h2 class="element__title">Lago di Braies</h2>
-              <button class="element__like" type="button"></button>
+              <button
+                class="element__like"
+                type="button"
+                aria-label="Like button"
+              ></button>
             </div>
           </article>
         </section>
@@ -75,7 +107,11 @@
 
       <div class="popup">
         <div class="popup__content">
-          <button class="popup__close-icon" type="button"></button>
+          <button
+            class="popup__close-icon"
+            type="button"
+            aria-label="Close button"
+          ></button>
           <h2 class="popup__title">Edit profile</h2>
           <form class="popup__form" name="editprofile_popup">
             <input
@@ -84,6 +120,7 @@
               name="name"
               value="Jacques Cousteau"
               placeholder="Name"
+              required
             />
 
             <input
@@ -92,6 +129,7 @@
               name="title"
               value="Explorer"
               placeholder="About Me"
+              required
             />
             <button class="popup__submit-button" type="submit">Save</button>
           </form>
