@@ -26,6 +26,9 @@
   line-height: 48px;
   color: #ffffff;
   margin: 0px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   max-width: 500px;
   grid-area: name;
 }
@@ -36,6 +39,9 @@
   font-size: 18px;
   line-height: 22px;
   color: #ffffff;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   max-width: 460px;
   grid-area: title;
 }
@@ -115,9 +121,14 @@
     border-radius: 120px;
   }
 
+  .profile__name {
+    max-width: 196px;
+  }
+
   .profile__title {
     font-size: 14px;
     line-height: 17px;
+    max-width: 238px;
   }
 
   .profile__add-button {
