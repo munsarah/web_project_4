@@ -56,6 +56,7 @@
   width: 358px;
   height: 50.15px;
   background: #000000;
+  border-radius: 2px;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
@@ -100,10 +101,9 @@
 
   .popup__title {
     margin: 25px 22px 76px;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 29px;
-    padding: 0px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
   }
   .popup__input {
     padding: 0px;
