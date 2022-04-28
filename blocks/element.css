@@ -1,7 +1,6 @@
 .element {
   border-radius: 10px;
   background: #ffffff;
-  flex-grow: 1;
 }
 .element__image {
   width: 100%;
@@ -12,7 +11,7 @@
 .element__group {
   display: flex;
   justify-content: space-between;
-  padding: 25px 15px 25px 21px;
+  margin: 25px 15px 25px 21px;
 }
 
 .element__title {
@@ -25,17 +24,21 @@
   overflow: hidden;
   padding: 0px;
   margin: 0px;
-  max-width: 80vw;
 }
 
 .element__like {
   width: 21px;
   height: 19px;
-  padding: 0px;
-  background-image: url("../images/heart.jpg");
   align-self: center;
   cursor: pointer;
   border: none;
+  padding: 0;
+  background-image: url("../images/heart.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border: 1.5px solid #ffffff;
+  bor
 }
 .element__like:hover {
   opacity: 0.5;
