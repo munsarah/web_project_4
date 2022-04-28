@@ -31,6 +31,7 @@
 .element__like {
   width: 21px;
   height: 19px;
+  padding: 0px;
   background-image: url("../images/heart.jpg");
   align-self: center;
   cursor: pointer;

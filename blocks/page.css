@@ -13,12 +13,6 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 912px) {
-  .page__content {
-    margin: 0 auto;
-  }
-}
-
 @media screen and (max-width: 425px) {
   .page {
     margin: 0px;
