@@ -31,14 +31,13 @@
   height: 19px;
   align-self: center;
   cursor: pointer;
-  border: none;
-  padding: 0;
   background-image: url("../images/heart.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  border: 1.5px solid #ffffff;
-  bor
+  border: 0.5 solid #ffffff;
+  border: none;
+  /* padding: 0; */
 }
 .element__like:hover {
   opacity: 0.5;
